@@ -1,0 +1,13 @@
+{
+  "name": "html-skeleton",
+  "version": "1.0.0",
+  "description": "HTML skeleton for common use",
+  "author": "HOWARD",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-hb": "^5.1.0",
+    "gulp-rename": "^1.2.2",
+    "handlebars-layouts": "^3.1.3"
+  }
+}

@@ -1,0 +1,29 @@
+//
+// Normalize
+//
+$rem-unit:100px;
+$base-font-size:.12rem;
+$base-line-height:1.5;
+$base-font-family:Arial, Helvetica, sans-serif !default;
+$h1-font-size:2 * $base-font-size;
+//
+// Media query breakpoints
+//
+$breakpoints:( "phone": 320px, "tablet": 768px, "desktop": 1024px) !default;
+$tablet:">=tablet";
+$desktop:">=desktop";
+//
+// Color
+//
+$white:#fff !default;
+$gray:#4c4c4c !default;
+//
+// Body
+//
+$body-bg:$white !default;
+$body-color:$gray !default;
+//
+// Link
+//
+$link-color:blue !default;
+$link-decoration:underline !default;

@@ -6,8 +6,16 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-cssnano": "^2.1.2",
     "gulp-hb": "^5.1.0",
     "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-bulk-import": "^1.0.1",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^1.6.0",
     "handlebars-layouts": "^3.1.3"
   }
 }

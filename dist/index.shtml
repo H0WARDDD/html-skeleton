@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Example</title>
+    <link rel="stylesheet" href="css/styles.min.css">
   </head>
   <body>
 		<!--#include file="includes/header.shtml" -->

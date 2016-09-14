@@ -304,8 +304,11 @@
                   "animation-direction"
             ],
             [
+                  "$include @media($phone)",
                   "$include @media($tablet)",
-                  "$include @media($desktop)"
+                  "$include @media($tablet, $noDesktop)",
+                  "$include @media($desktop)",
+                  "$include @media($noDesktop)"
             ]
       ]
 }

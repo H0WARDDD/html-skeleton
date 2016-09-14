@@ -3,7 +3,7 @@
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */html {font-size: 625%; /* 2 */-webkit-text-size-adjust: 100%; /* 1 */-ms-text-size-adjust: 100%; /* 2 */}/**
  * Remove the margin in all browsers (opinionated).
- */body {margin: 0;font: 0.12rem/1.5 Arial, Helvetica, sans-serif;}/* HTML5 display definitions
+ */body {margin: 0;font: 0.12rem/1.5 Arial, Helvetica, sans-serif;color: #4c4c4c;background: #fff;}/* HTML5 display definitions
    ========================================================================== *//**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
@@ -21,7 +21,7 @@
    ========================================================================== *//**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
- */a {background-color: transparent; /* 1 */-webkit-text-decoration-skip: objects; /* 2 */}/**
+ */a {color: blue;text-decoration: underline;background-color: transparent; /* 1 */-webkit-text-decoration-skip: objects; /* 2 */}/**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */a:active,a:hover {outline-width: 0;}/* Text-level semantics

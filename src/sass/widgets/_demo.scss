@@ -2,17 +2,17 @@
 	color:#fff;
 	background:#000;
 
+	@include media ($tablet){
+		background:#aaa;
+		h1{
+			font-size:.3rem;
+		}
+	}
 	@include media ($desktop){
 		color:#333;
 		background:#ccc;
 		h1{
 			font-size:.4rem;
-		}
-	}
-	@include media ($tablet){
-		background:#aaa;
-		h1{
-			font-size:.3rem;
 		}
 	}
 	h1{

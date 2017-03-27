@@ -1,30 +1,137 @@
-//
-// Normalize
-//
+/**/
+/* Normalize*/
+/**/
 $rem-unit:100px;
-$base-font-size:.12rem;
-$base-line-height:1.5;
-$base-font-family:Arial, Helvetica, sans-serif !default;
+$base-font-size:.26rem;
+$base-line-height:1.2;
+$base-font-family:"FreightSansPro", sans-serif !default;
+$extend-font-family:"MrEavesSanOT", sans-serif !default;
 $h1-font-size:2 * $base-font-size;
-//
-// Media query breakpoints
-//
+/**/
+/* Media query breakpoints*/
+/**/
 $phone:"<tablet";
 $tablet:">=tablet";
 $desktop:">=desktop";
 $noDesktop:"<desktop";
-//
-// Color
-//
+/**/
+/* Color*/
+/**/
+$black:#000 !default;
 $white:#fff !default;
-$gray:#4c4c4c !default;
-//
-// Body
-//
-$body-bg:$white !default;
-$body-color:$gray !default;
-//
-// Link
-//
-$link-color:blue !default;
-$link-decoration:underline !default;
+$gray-darkest:#242424 !default;
+$gray-darker:#505050 !default;
+$gray-dark:#787878 !default;
+$gray:#c1c1c1 !default;
+$gray-light:#d0d0d0 !default;
+$gray-lighter:#f0f0f0 !default;
+$gray-lightest:#f8f8f8 !default;
+$grayish-green-light:#d1ebbe !default;
+$grayish-blue-light:#c5e4f4 !default;
+$blue:#bee5f9 !default;
+$blue-dark:#3b5998 !default;
+$red:#e72e2a !default;
+$red-light:#ff9e94 !default;
+$yellow:#f48830 !default;
+$green-light:#d2e7be !default;
+/**/
+/* Body*/
+/**/
+$body-bg:$gray-lightest !default;
+$body-color:$black !default;
+$tablet-screen-gap:.3rem !default;
+/**/
+/* Link*/
+/**/
+$link-color:$black !default;
+$link-decoration:underline !default;
+/**/
+/* Ratio*/
+/**/
+$ratio-4-3:44.0913%;
+$ratio-d-4-3:43.4337%;
+$ratio-4-1:137.5%;
+$ratio-3-1:100%;
+$ratio-3-1-extend:204.3757%;
+$ratio-d-3-1-extend:206.0893%;
+$ratio-2-1:66.7771%;
+$ratio-d-2-1:65.3386%;
+$ratio-2-1-small:48.5624%;
+$ratio-d-2-1-small:48.008%;
+$ratio-2-1-extend:134.6614%;
+/*$ratio-bookcover-lg:148.1579%;*/
+$ratio-avatar-lg:137.1951%;
+/**/
+/* Z-Index*/
+/**/
+$z-index-1:100;
+$z-index-2:200;
+$z-index-3:300;
+$z-index-4:400;
+$z-index-5:500;
+$z-index-6:600;
+$z-index-7:700;
+$z-index-8:800;
+$z-index-9:900;
+$z-index-10:1000;
+/**/
+/* Z-index used*/
+/**/
+/* Level 1*/
+$radio-checkbox-z-index:$z-index-1;
+$video-icon-z-index:$z-index-1;
+$video-info-z-index:$z-index-1;
+$slider-control-z-index:$z-index-1;
+/* Level 9*/
+$navbar-z-index:$z-index-9;
+$quicklinks-z-index:$z-index-9;
+$lang-switch-z-index:$z-index-9;
+$button-dropdown-z-index:$z-index-9;
+$shopping-cart-z-index:$z-index-9;
+$coming-soon-block-z-index:$z-index-9;
+/* Level 10*/
+$modal-z-index:$z-index-10;
+/**/
+/* Magnific popup*/
+/**/
+/* overlay*/
+$mfp-overlay-color:$black !default; /* Color of overlay screen*/
+$mfp-overlay-opacity:.2 !default; /* Opacity of overlay screen*/
+$mfp-shadow:0 0 8px rgba(0, 0, 0, .6) !default; /* Shadow on image or iframe*/
+/* spacing*/
+$mfp-popup-padding-left:0 !default; /* Padding from left and from right side*/
+$mfp-popup-padding-left-mobile:0 !default; /* Same as above, but is applied when width of window is less than 800px*/
+$mfp-z-index-base:$z-index-10 !default; /* Base z-index of popup*/
+/* controls*/
+$mfp-include-arrows:true !default; /* Include styles for nav arrows*/
+$mfp-controls-opacity:.65 !default; /* Opacity of controls*/
+$mfp-controls-color:$black !default; /* Color of controls*/
+$mfp-controls-border-color:#3f3f3f !default; /* Border color of controls*/
+$mfp-inner-close-icon-color:#333 !default; /* Color of close button when inside*/
+$mfp-controls-text-color:#ccc !default; /* Color of preloader and "1 of X" indicator*/
+$mfp-controls-text-color-hover:#fff !default; /* Hover color of preloader and "1 of X" indicator*/
+/* Iframe-type options*/
+$mfp-include-iframe-type:true !default; /* Enable Iframe-type popups*/
+$mfp-iframe-padding-top:40px !default; /* Iframe padding top*/
+$mfp-iframe-background:#000 !default; /* Background color of iframes*/
+$mfp-iframe-max-width:900px !default; /* Maximum width of iframes*/
+$mfp-iframe-ratio:9/16 !default; /* Ratio of iframe (9/16 = widescreen, 3/4 = standard, etc.)*/
+/* Image-type options*/
+$mfp-include-image-type:true !default; /* Enable Image-type popups*/
+$mfp-image-background:#444 !default;
+$mfp-image-padding-top:40px !default; /* Image padding top*/
+$mfp-image-padding-bottom:40px !default; /* Image padding bottom*/
+$mfp-include-mobile-layout-for-image:true !default; /* Removes paddings from top and bottom*/
+/* Image caption options*/
+$mfp-caption-title-color:#f3f3f3 !default; /* Caption title color*/
+$mfp-caption-subtitle-color:#bdbdbd !default; /* Caption subtitle color*/
+/* A11y*/
+$mfp-use-visuallyhidden:false !default; /* Hide content from browsers, but make it available for screen readers*/
+/**/
+/* Alert popup*/
+/**/
+$alert-shadow:.04rem .04rem .08rem .02rem rgba(0, 0, 0, .03);
+/**/
+/* bookcover overlay*/
+/**/
+$bookcover-overlay:rgba(0, 0, 0, .2);

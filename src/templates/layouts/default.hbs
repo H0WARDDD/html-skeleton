@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{title}}</title>
-    <link rel="stylesheet" href="css/styles.min.css">
-  </head>
-  <body>
-    {{#block "body"}}
-        <h1>Hello World</h1>
-    {{/block}}
-  </body>
+
+<head>
+  <!--#include file="includes/head.shtml" -->
+  <title>{{title}}</title>
+</head>
+
+<body>
+  <div class="main global-width">
+    {{#block "body"}}{{/block}}
+  </div>
+  <!--#include file="includes/scripts.shtml" -->
+</body>
+
 </html>
+
